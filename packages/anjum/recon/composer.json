@@ -1,0 +1,22 @@
+{
+    "name": "anjum/recon",
+    "description": "Logs incoming API requests to a file",
+    "type": "library",
+    "version": "1.0.0",
+    "require": {
+        "php": "^8.1",
+        "illuminate/support": "^10|^11|^12|^13"
+    },
+    "autoload": {
+        "psr-4": {
+            "Anjum\\Recon\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Anjum\\Recon\\ReconServiceProvider"
+            ]
+        }
+    }
+}
